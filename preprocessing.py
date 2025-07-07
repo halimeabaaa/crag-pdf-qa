@@ -13,7 +13,7 @@ def doc_preprocessing():
     wcs_cluster_url = os.getenv("WEAVIATE_URL")
     wcs_api_key = os.getenv("WEAVIATE_API_KEY")
 
-    pdf_loader = PyPDFLoader("tip.pdf")
+    pdf_loader = PyPDFLoader("yourdocuments.pdf")
     docs = pdf_loader.load()
 
 
